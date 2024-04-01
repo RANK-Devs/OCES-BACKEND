@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
 app.use(cors(
     {
-    origin: 'http://localhost:4200',
+    origin: 'https://www.hau-oces.com',
     credentials: true
 }
 ));
